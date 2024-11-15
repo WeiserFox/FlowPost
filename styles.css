@@ -29,6 +29,15 @@
     padding: 0px 2px;
 }
 
+.post {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 900px;
+    min-width: 200px;
+    margin: 15px;
+    background-color: gold;
+}
+
 .left {
     background-color: rgb(42, 40, 40);
     width: 25vh;
@@ -43,35 +52,19 @@
 
 .finger-paint-regular {
     font-family: "Finger Paint", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     font-size: 60px;
-    display: flex;
     margin-right: 50px;
     
 }
 
-
-.search {
-    width: 800px;
-    display: flex;
-    justify-content: left;
-    justify-self:center;
-    border: 1px solid;
-    border-color: rgb(97, 97, 97);
-    font-size: 32px;
-    align-items: center;
-    margin-top: 25px;
-    text-align: left;
-    border-radius: 10px;
-    padding: 10px 10px  ;
-    height: 50px;
-}
 input[type="text"], input[type="email"] {
-    width: 800px;
-    min-width: 100px;
-    display: flex;
     flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 800px;
+    min-width: 400px;
+    display: flex;
     justify-content: left;
     justify-self:center;
     border: 1px solid;
@@ -86,21 +79,16 @@ input[type="text"], input[type="email"] {
     background-color: #d2d2d200;
     color: #d2d2d2;
 }
+
 .search_bar{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 800px; 
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 800px;
+    min-width: 200px;
     margin: 0 auto;
 }
-.search-input {
-    flex-grow: 1;
-    padding: 8px 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-  }
+
 .reg {
     display: flex;
     background-color: rgb(132, 132, 132);
