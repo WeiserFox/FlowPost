@@ -56,10 +56,11 @@
     font-style: normal;
     font-size: 60px;
     margin-right: 50px;
+    color: white;
     
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"] {
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 800px;
@@ -109,4 +110,82 @@ input[type="text"], input[type="email"] {
     background-color: #d2d2d2;
 }
 
-  
+/* This is LoginPage */
+.FlowPost {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 100px 0 0 0;
+
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: rgb(97, 97, 97);
+}
+
+.register-form {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
+
+.register-form input, .register-form button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.register-form input {
+    background-color: #555;
+    color: white;
+}
+
+.register-form button {
+    background-color: #888;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.register-form .no-account {
+    background-color: transparent;
+    color: lightgray;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.login:hover {
+    background-color: #bbb;
+}
+
+input[type="login"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #555;
+    color: white;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;;
+    align-items: center;
+    text-align: left;
+}
