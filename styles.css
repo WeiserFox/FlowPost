@@ -19,6 +19,7 @@
 .right {
     background-color: rgb(42, 40, 40);
     width: 25vh;
+    min-width: 170px;
     height:100vh;
     color: rgb(255, 255, 255);
     font-size: 36px;
@@ -31,6 +32,7 @@
 .left {
     background-color: rgb(42, 40, 40);
     width: 25vh;
+    min-width: 170px;
     height:100vh;
     color: rgb(255, 255, 255);
     font-size: 36px;
