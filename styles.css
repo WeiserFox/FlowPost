@@ -59,18 +59,15 @@
     
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"] {
+    display: flex;
+    flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 800px;
-    min-width: 400px;
-    display: flex;
-    justify-content: left;
-    justify-self:center;
+    flex-basis: 800px;
     border: 1px solid;
     border-color: rgb(97, 97, 97);
     font-size: 32px;
-    align-items: center;
     margin-top: 25px;
     text-align: left;
     border-radius: 10px;
