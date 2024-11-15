@@ -1,0 +1,122 @@
+.body {
+    background-color: rgb(97, 97, 97);
+    font-size: 16px;
+}
+.flex-con {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top {
+    background-color: rgb(36, 32, 32);
+    color: white;
+    font-size: larger;
+    height: 100px;
+    width: 100%;
+    display: flex;    
+}
+.right {
+    background-color: rgb(42, 40, 40);
+    width: 25vh;
+    height:100vh;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    justify-self: flex-start;
+    padding: 0px 2px;
+}
+
+.left {
+    background-color: rgb(42, 40, 40);
+    width: 25vh;
+    height:100vh;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 2px;
+}
+
+.finger-paint-regular {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+
+.search {
+    width: 800px;
+    display: flex;
+    justify-content: left;
+    justify-self:center;
+    border: 1px solid;
+    border-color: rgb(97, 97, 97);
+    font-size: 32px;
+    align-items: center;
+    margin-top: 25px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px 10px  ;
+    height: 50px;
+}
+input[type="text"], input[type="email"] {
+    width: 800px;
+    min-width: 100px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    justify-self:center;
+    border: 1px solid;
+    border-color: rgb(97, 97, 97);
+    font-size: 32px;
+    align-items: center;
+    margin-top: 25px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px 10px  ;
+    height: 50px;
+    background-color: #d2d2d200;
+    color: #d2d2d2;
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+.search-input {
+    flex-grow: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+.reg {
+    display: flex;
+    background-color: rgb(132, 132, 132);
+    height: 50px;
+    justify-content: left;
+    justify-self:center;
+    font-size: 32px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    text-align: left;
+    border-radius: 10px;
+    padding: 0px 10px
+}
+.reg:hover {
+    background-color: #d2d2d2;
+}
+
+  
