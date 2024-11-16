@@ -24,7 +24,6 @@
     font-size: 36px;
     display: flex;
     justify-content: center;
-    justify-self: flex-start;
     padding: 0px 2px;
 }
 
@@ -86,7 +85,6 @@
     margin: 10px;
     margin-top: 0;
     text-indent: 40px;
-    
 }
 .left {
     background-color: rgb(42, 40, 40);
