@@ -5,7 +5,6 @@
 .flex-con {
     flex-wrap: nowrap;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .top {
@@ -276,6 +275,7 @@ input[type="login"] {
     font-size: 36px;
     justify-content: center;
     padding-right: 20px;
+    flex-direction: column;
 }
 
 .profileputton {
@@ -292,10 +292,25 @@ input[type="login"] {
 }
 
 .avatarprofile{
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    margin: 0px 5px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     border-radius: 50%;
+    margin-top: 30px;
+    
+}
+
+.obomne{
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(42, 40, 40);
+}
+
+.rightprofile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 100px;
 }
