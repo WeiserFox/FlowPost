@@ -261,3 +261,54 @@ input[type="login"] {
 .register-form button[type="submitforgot"]{
     margin-top: 70px;
 }
+
+
+/* This is UserProfile */
+
+.leftprofile {
+    background-color: rgb(42, 40, 40);
+    min-width: 170px;
+    height:100vh;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    justify-content: center;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.profileputton {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.avatarprofile{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+}
+
+.obomne{
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(42, 40, 40);
+}
+
+.rightprofile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 100px;
+}
