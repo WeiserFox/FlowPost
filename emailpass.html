@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Восстановление почты</title>
+    <title>Подтверждение почты</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -14,11 +14,10 @@
     <div class="finger-paint-regular FlowPostforgot">FlowPost</div>
     <div class="form-container">
         <form class="register-form">
-            <h2 style="font-family: Arial, Helvetica, sans-serif; margin-top: 0;">Восстановление пароля</h2>
-            <input type="login" placeholder="Логин" required> </input>
-            <input type="email" placeholder="Почта" required>
-            <button class="login" type="submitforgot" onclick="window.location.href='emailpass.html'">Отправить письмо</button>
-            <button type="buttonforgot" class="no-account" onclick="window.location.href='register.html'">Если у вас нет аккаунта, вам сюда</button>
+            <h2 style="font-family: Arial, Helvetica, sans-serif; margin-top: 0;">Подтверждение почты</h2>
+            <h4 style="font-family: Arial, Helvetica, sans-serif;">Введите код, отправленный на почту</h4>
+            <input type="emailcode" placeholder="Код" required> </input>
+            <button class="login" type="submitforgot">Ввести код</button>
         </form>
     </div>
 </body>
